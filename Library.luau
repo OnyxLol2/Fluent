@@ -162,6 +162,7 @@ local function ToggleFunction()
     Toggle.Size = UDim2.new(0.14899, 0, 0.10752, 0)
     Toggle.Text = "Toggle"
     Toggle.Name = "Toggle"
+    Toggle.Visible = false
     Toggle.Position = UDim2.new(0.41332, 0, 0.01132, 0)
 
 	UICorner.Parent = Toggle
@@ -5652,5 +5653,6 @@ if getgenv then
 else
 	Fluent = Library
 end
+
 
 return Library, SaveManager, InterfaceManager
