@@ -187,7 +187,7 @@ local function ToggleFunction()
 		if input.UserInputType == Enum.UserInputType.Touch or input.UserInputType == Enum.UserInputType.MouseButton1 then
 			dragging = true
 			dragStart = input.Position
-			startPos = Close_ImageButton.Position
+			startPos = Toggle.Position
 
 			input.Changed:Connect(function()
 				if input.UserInputState == Enum.UserInputState.End then
@@ -5656,3 +5656,4 @@ end
 
 
 return Library, SaveManager, InterfaceManager
+
